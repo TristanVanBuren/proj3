@@ -81,7 +81,7 @@ $stmt = $pdo->query($sql);
         <div class="hero-search">
             <h2>Find my tool</h2>
             <form action="" method="GET" class="search-form">
-                <label for="search">Search by brand:</label>
+                <label for="search" style="color:black">Search by brand:</label>
                 <input type="text" id="search" name="search" required>
                 <input type="submit" value="Search">
             </form>
