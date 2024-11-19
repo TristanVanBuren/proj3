@@ -29,6 +29,8 @@ th, td {
 .half-width-left-align {
     width: 50%;
     float: none;  /* Explicitly remove float */
+    margin: 0 auto;
+    
 }
 
 /* Create a clear break in the layout */
@@ -36,6 +38,7 @@ th, td {
     width: 100%;
     clear: both;  /* Forces this below floated elements */
     display: block;  /* Ensures block-level display */
+    margin: 0 auto;
 }
 
 form {
